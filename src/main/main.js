@@ -8,6 +8,9 @@ Vue.use(VueScrollTo)
 import VueResource from 'vue-resource'
 Vue.use(VueResource)
 
+import Meta from 'vue-meta'
+Vue.use(Meta)
+
 import vSelect from 'vue-select'
 Vue.component('v-select', vSelect)
 
