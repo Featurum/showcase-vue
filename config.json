@@ -1,0 +1,5 @@
+{
+    "api": "http://api.qa.imumk.ru/api/mobilev1/update",
+    "static": "https://www.imumk.ru",
+    "folder": "/covers"
+}

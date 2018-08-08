@@ -1,0 +1,65 @@
+.offers-item {
+	width: 100%;
+	float: left;
+	background-color: #fff;
+	box-shadow: 0 0 2px rgba(0, 0, 0, .2);
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.offers-item__poster {
+	width: 100%;
+	float: left;
+	position: relative;
+	overflow: hidden;
+	padding-bottom: 80%;
+}
+
+.offers-item__poster__case {
+	width: 100%;
+	float: left;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.offers-item__poster__case img {
+	width: 100%;
+	float: left;
+}
+
+.offers-item__content {
+	width: 100%;
+	float: left;
+	padding: 10px 15px 15px;
+	text-align: left;
+}
+
+.offers-item__title {
+	font-size: 14px;
+	line-height: 1.4;
+}
+
+.offers-item__grade {
+	font-size: 14px;
+	line-height: 1.4;
+}
+
+.offers-item__genre {
+	font-size: 11px;
+}
+
+.offers-item__price {
+	font-size: 14px;
+	margin-bottom: 8px;
+}
+
+.offers-item__title, .offers-item__grade, .offers-item__genre, .offers-item__price {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}

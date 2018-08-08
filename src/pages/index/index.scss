@@ -1,0 +1,32 @@
+.header { padding: 20px 0; box-shadow: 0 0 10px rgba(0, 0, 0, .2); }
+.header-logo { float: left; display: inline-block; }
+.header-logo img { float: left; }
+.header-price { display: inline-block; float: right; padding: 20px 0 4px; }
+
+.check-price { display: inline-block; float: right; }
+.check-price__input { display: inline-block; vertical-align: middle; margin: 0 10px; }
+.check-price__text { display: inline-block; vertical-align: middle; }
+
+.filters-icon { width: 14px; height: 14px; }
+.filters-search { width: 100%; float: left; }
+.filters-search__input { width: calc(100% - 59px); }
+.filters-search__btn { width: 44px; float: right; margin-left: 15px; }
+
+.offers-list { text-align: center; margin: -15px; }
+.offers-list__col { width: 20%; padding: 15px; display: inline-block; }
+@media screen and (max-width:1029px) {
+	.offers-list__col { width: 25%; }
+	.filters-select { margin-bottom: 15px; }
+}
+@media screen and (max-width:767px) {
+	.header { text-align: center; }
+	.header-logo { float: none; }
+	.header-price { float: none; padding: 10px 0 0; }
+	.offers-list__col { width: 33.33%; }
+}
+@media screen and (max-width:599px) {
+	.offers-list__col { width: 50%; }
+}
+@media screen and (max-width:359px) {
+	.offers-list__col { width: 100%; }
+}
